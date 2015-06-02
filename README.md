@@ -52,3 +52,40 @@ $ git clone https://github.com/Harvard-Open-Data-Project/droid.git
 * Building plans for Allston
 * Authentication
 * [DASH research repository](http://dash.harvard.edu/)
+
+## Development
+
+### Getting started
+
+To run the app locally, you'll first need to set up your development environment. 
+
+Begin by [installing Node.js](https://nodejs.org/).
+
+Clone this repository and `cd` into that folder.
+
+Install the Node.js modules required to build the app:
+
+```
+npm install -g gulp bower
+```
+
+Install the other modules this app requires:
+
+```
+npm install
+bower install
+```
+
+Once you're all set up, start your local server:
+
+```
+gulp
+```
+
+Then open up [localhost:3000](http://localhost:3000/) in your browser.
+
+### Contributing
+
+Feel free to make a pull request with new features or bug fixes. Fork this repo, make some changes, and submit your pull request.
+
+
